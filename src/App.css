@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*====================================== Header ======================================= */
+.nav_bar {
+  background-color: black;
+  color: white !important;
+}
+
+.togg_btn {
+  color: white !important;
+  background-color: #fff !important;
+}
+
+.nav_menu .nav-link {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1px 7px 3px 0px !important;
+  width: 100%;
+  margin: 3px;
+  font-size: 22px !important;
+  width: 100% !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+
+.btn_link{
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+/* ========================================= category =============================== */
+
+.categorys {
+
+  background: white !important;
+  height: 100%;
+  box-shadow: 2px 0px 16px rgba(0, 0, 0, 0.2);
+  padding: 2px;
+}
+.search{
+  height: 45px;
+  margin-bottom: 10px;
+  background-color: rgb(241, 241, 245);
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  padding-left: 20px !important;
+  border: 2px solid black;
+}
+
+.categorys h3 {
+  margin: 30px 0 25px 0;
+}
+
+.category_item {
+  padding: 5px;
+  border: 1px solid black;
+  margin: 4px 0 0px 0;
+}
+
+.pro_item img {
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.main_pro {
+  padding: 20px 20px;
+  width: 100% !important;
+}
+
+.pro_item {
+  background-color: #fff;
+  width: 100% !important;
+  box-shadow: 2px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+}
+
+.pro_text {
+  padding-left: 10px;
+}
+
+.pro_text p {
+  color: #8B8BA3;
+  font-weight: bold;
+}
+
+.pro_text h5 {
+  text-align: center !important;
+  padding: 3px 0px 0 40px;
+  color: green;
+}
+
+.pro_text h6 {
+  background-color: #f6f2f2;
+  border-radius: 20px;
+  width: 80%;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.ratings {
+  background-color: green;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff !important;
+  padding: 4px 10px 4px 20px !important;
+}
+
+.add_btn {
+  margin: 0 15px 10px 0 !important;
+  width: 40%;
+  padding: 4px 20px 4px 20px !important;
+  background-color: orange;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none !important;
+}
+
+.add_btn .cart {
+  margin:0 4px 4px 0;
+  font-size: 20px;
+} 
+
+/* ============================================ sing_pro ============================== */
+
+.sing_pro {
+  background-color: rgb(248, 245, 246);
+  align-items: center !important;
+  border: 1px solid lavender;
+  border-radius: 5px;
+  padding: 30px 0;
+}
+
+.sing_item {
+  border: 1px solid lavender;
+  background-color: rgb(248, 245, 246);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.pro_detail h5 {
+  text-align: center !important;
+  padding: 3px 0px 0 40px;
+  color: green;
+}
+
+.detail_reti {
+  width: 100px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: green !important;
+  color: white;
+}
+
+.details h6 {
+  background-color: #f6f2f2;
+  border-radius: 20px;
+  width: 190px;
+  text-align: center;
+  padding: 9px;
+}
+
+.brand_detali p {
+  padding: 0 !important;
+  margin: 6px 0 !important;
+}
+
+.buy_btn {
+  font-size: 22px;
+  border: none;
+  padding:10px 20px ;
+  margin: 5px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 0 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.buy_icon {
+  font-size: 26px;
+  margin-right: 5px;
+}
+
+.buy {
+  border: 2px solid #ffc107 !important;
+  background-color: #fff !important;
+  color: #ffc107;
+}
+.buy_item h5{
+   font-size: 30px !important;
+   padding: 0 22px 0 20px;
+  
+ 
+}
+.buy_item button{
+    
+    padding: 2px;
+    width: 70px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+/* ================================= Addd to Cart ======================================= */
+
+.cart_item {
+
+  align-items: center !important;
+  border: 1px solid lavender;
+  border-radius: 5px;
+  padding: 30px 0;
+
+
+}
+.cart_item  img{
+width: 53%;
+height: 10%;
+object-fit: cover;
+} 
+.cart_ditalis h5{
+   color: #fff;
+   text-align: center;
+   padding:5px 0 ;
+   margin: 0;
+}
+.cart_ditalis h6{
+  background-color:#f6f2f2 ;
+  border-radius: 50px;
+  width: 180px;
+  padding: 9px ;
+  text-align: center;
+}
+.cart_buy{
+  
+  background-color: #ffc107 !important;
+  color: #fff; 
+}
+
+/* ================================ Buy Now ================================ */
+
+.buy_now{
+  margin-left: 35%;
+  width: 30%;
+}
+.buy_text{
+  border: 1px solid lavender;
+  border-radius: 10px ;
+  text-align: left;
+  padding: 25px 20px !important ;
+}
+.buy_input{
+  width: 290px;
+}
+.account_btn{
+  border: 1px solid lavender;
+  border-radius: 5px;
+  padding: 5px 70px;
+  background-color: white;
+}
+.account_btn:hover{
+  background-color: lavender;
+}
