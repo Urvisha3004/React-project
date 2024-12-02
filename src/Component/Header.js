@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { FaRegUserCircle } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 import { Link } from 'react-router-dom';
-import logo from '../Componet/Image/Screenshot 2024-06-04 134413.png';
+import logo from '../Component/Image/Screenshot 2024-06-04 134413.png';
 
 function Header() {
 

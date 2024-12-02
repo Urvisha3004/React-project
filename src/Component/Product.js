@@ -9,9 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from './Header';
 
-
 function Product() {
-
   const [val, setVal] = useState([]);
   const [categories, setCategories] = useState([]);
   const [search, setsearch] = useState('')

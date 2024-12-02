@@ -9,7 +9,7 @@ const BuyNowForm = () => {
         <Row>
           <Col xs={12}>
             <div>
-              <img src={require('../Componet/Image/Screenshot 2024-06-13 132457.png')} alt="Sign in illustration" className='img-fluid' />
+              <img src={require('../Component/Image/Screenshot 2024-06-13 132457.png')} alt="Sign in illustration" className='img-fluid' />
             </div>
           </Col>
         </Row>
